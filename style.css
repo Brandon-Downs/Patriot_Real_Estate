@@ -278,8 +278,7 @@ ol {
 }
 
 .section-apps .apps {
-    background-size: cover;
-    background-position: center; 
+    background-color: #7FACC6; 
     height: 100px;
     margin-bottom: 25px;
     box-shadow: 0 5px 15px -5px rgba(54, 59, 50, 0.73);
@@ -287,29 +286,7 @@ ol {
     justify-content: center;    
 }
 
-.section-apps .apps:first-child {
-    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/andrew-neel-133200.jpg);
-}
 
-.section-apps .apps:nth-child(2) {
-    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/chris-lawton-236413.jpg);
-}
-
-.section-apps .apps:nth-child(3) {
-    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/corinne-kutz-211251.jpg);
-}
-
-.section-apps .apps:nth-child(4) {
-    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/sven-scheuermeier-106767.jpg);
-}
-
-.section-apps .apps:nth-child(5) {
-    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/joao-silas-74207.jpg);
-}
-
-.section-apps .apps:last-child {
-    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/andrew-branch-106863.jpg);
-}
 
 .apps a {
     display: flex;
