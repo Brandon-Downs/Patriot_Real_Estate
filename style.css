@@ -1,0 +1,473 @@
+/*  
+#67adc6   blue accent
+#85bb65  main color 
+
+
+#618849
+#363B32     Deep grey text color
+#2A3B20  Dark Green headline color
+#B2C6A7
+
+#7FACC6
+
+#f5fff0  light green background color
+
+*/
+
+/**************************************************************/
+/********   GENERAL   **********/
+/**************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #363B32;
+/*    position: relative;*/
+/*    overflow-x: hidden;*/
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: .95em;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+h1 {
+    font-weight: 400;
+    font-size: 2.56em;
+    color: #2A3B20; 
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.93em;
+    line-height: 1.25em;
+/*    margin: 0;*/
+}
+
+p {
+    margin: 0;
+}
+
+/**************************************************************/
+/********   NAV BAR   **********/
+/**************************************************************/
+
+.navbar {
+    background: #85bb65;
+    border-bottom: 1px solid rgba(97, 136, 73, 0.47);
+    box-shadow: 0 5px 35px rgba(54, 59, 50, 0.13);
+    
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand h3 {
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #2A3B20; 
+    padding-top: 7px;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+
+/**************************************************************/
+/********   HERO   **********/
+/**************************************************************/
+
+
+
+.jumbotron {
+    background-image: linear-gradient(rgba(133, 187, 101, 1), rgba(133, 187, 101, .2)), url(josh-swift-39530.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    padding: 145px 0 0 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hero-flex {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron h2 {
+    margin-bottom: 50px;
+}
+
+.jumbotron p {
+    font-weight: 700;
+    font-size: 1.4em;
+    margin: 30px 0;
+    display: none;
+}
+
+.cta,
+.cta-2 {
+/*    display: inline-block;*/
+/*    align-content: center;*/
+    margin: 27px auto 0 auto;
+}
+
+
+.btn:link,
+.btn:visited {
+    color: #fff;  
+}
+
+.btn-main {
+    background-color: #7FACC6;
+    border-color: #fff;
+    transition: .3s;
+}
+
+.btn-main:hover,
+.btn-main:active {
+    transform: scale(1.05, 1.05);
+    color: #2A3B20;
+}
+
+.btn-second {
+    border-color: #fff;
+}
+
+.btn-second:hover,
+.btn-second:active {
+    background-color: #7FACC6;
+    border-color: #fff;
+}
+
+/**************************************************************/
+/********   ABOUT   **********/
+/**************************************************************/
+
+
+.section-about {
+    padding: 0 5%;
+    background: #fcfffb;
+}
+
+.about-2 {
+    background: #f5fff0;
+}
+
+.section-about .container h2 {
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 1.45;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/**************************************************************/
+/********   HOW IT WORKS   **********/
+/**************************************************************/
+
+img.clarity {
+    margin-bottom: 20px;
+    height: 65px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px -5px rgba(54, 59, 50, 0.73);
+    
+}
+
+.connect {
+    background-color: #f5fff0;
+    padding: 0;
+}
+
+.connect h3 {
+    font-size: 2.0em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 12px;
+}
+
+.connect p:first-child {
+    text-align: center;
+    font-weight: 100;
+    color: #959595;
+    padding-bottom: 100px;
+}
+
+ol { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.steps li {
+    background: #fcfffb;
+    padding: 10px 5%;
+    border-top: 1px solid rgba(97, 136, 73, 0.1);
+    box-shadow: 0 5px 15px -5px rgba(54, 59, 50, 0.73);
+    flex-grow: 1;
+/*    flex-basis: 250px;*/
+    
+}
+
+.connect li:nth-child(n+2) {
+    margin-top: 30px;   
+}
+
+.connect h4 {
+    display: inline-block;
+    font-size: 130%;
+    font-weight: 400;
+    padding: 17px 5px 5px 5px;
+}
+
+.connect p {
+    text-align: left;
+    font-size: 0.9em;
+    padding-bottom: 20px;
+}
+
+
+
+/**************************************************************/
+/********   APPS   **********/
+/**************************************************************/
+
+.section-apps {
+    background: #f5fff0;
+    padding-top: 50px;
+}
+
+.section-apps .apps {
+    background-size: cover;
+    background-position: center; 
+    height: 100px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px -5px rgba(54, 59, 50, 0.73);
+    display: flex;
+    justify-content: center;    
+}
+
+.section-apps .apps:first-child {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/andrew-neel-133200.jpg);
+}
+
+.section-apps .apps:nth-child(2) {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/chris-lawton-236413.jpg);
+}
+
+.section-apps .apps:nth-child(3) {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/corinne-kutz-211251.jpg);
+}
+
+.section-apps .apps:nth-child(4) {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/sven-scheuermeier-106767.jpg);
+}
+
+.section-apps .apps:nth-child(5) {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/joao-silas-74207.jpg);
+}
+
+.section-apps .apps:last-child {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/andrew-branch-106863.jpg);
+}
+
+.apps a {
+    display: flex;
+    flex-grow: 1;
+}
+
+.apps h2 {
+    color: #fff;
+    font-size: 2.1em;
+    font-weight: 400;
+    margin: auto;
+}
+
+/**************************************************************/
+/********   CONTACT   **********/
+/**************************************************************/
+
+
+.section-contact {
+    background-image: linear-gradient(rgba(103, 173, 198, 0.53), rgba(103, 173, 198, 0.53)), url(img/joanna-kosinska-255355.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px 0;
+    box-shadow: inset 0 0 35px -5px rgba(54, 59, 50, 0.73); 
+}
+
+.contact-btn {
+    background: rgba(133, 187, 101, 0.69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 70px;
+    margin: 15px auto;
+    font-size: 2.2em;
+    font-weight: 300;
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 35px -5px rgba(255, 255, 255, 0.73); 
+}
+
+.card-block {
+    border: none;
+    background: transparent;
+    padding-top: 35px;
+}
+
+
+input[type='text'],
+textarea,
+select {
+    width: 100%;
+    margin-top: 7px;
+    padding: 4px 5px;
+}
+
+input[type='submit'] {
+    width: 70%;
+    margin: 35px auto 10px;
+    background: rgba(133, 187, 101, 0.74); 
+    height: 70px;
+    font-size: 2em;
+    font-weight: 100;
+    color: #2A3B20;
+    border: 1px solid #2A3B20;
+    box-shadow: inset 0 0 35px -5px rgba(54, 59, 50, 0.73); 
+
+}
+
+textarea {
+    height: 150px;
+    max-height: 350px;
+}
+
+input[type='checkbox'] {
+    margin: 17px 7px 17px 0;
+}
+
+#sign-up {
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+/**************************************************************/
+/********   BIO   **********/
+/**************************************************************/
+
+.bio-box {
+    padding: 50px 7px;
+    background: #fcfffb;
+}
+
+.bio-box h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section-bio {
+    background: #fcfffb;
+}
+
+.prof-pic {
+    border-radius: 50%;
+    width: 115px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bio-box span {
+    font-size: 0.85em;
+}
+
+.prof p:first-child,
+.prof p:nth-child(3) {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+
+/**************************************************************/
+/********   FOOTER   **********/
+/**************************************************************/
+
+.footer {
+    background: #555;
+    text-align: center;
+    padding: 7px 7px 20px 7px;
+}
+
+.copy-right {
+    padding-top: 7px;
+    color: #afafaf;
+}
+
+.disclaimer {
+    color: #909090;
+    margin-top: 7px;
+    font-size: .65em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
